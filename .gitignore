@@ -6,3 +6,4 @@ sumofsubset.exe
 topological.exe
 warshalls.exe
 knapsackGreedy.exe
+knapsackDynamic.exe

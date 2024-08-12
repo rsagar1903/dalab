@@ -2,7 +2,7 @@
 void Cknapsack(int n, float weight[], float profit[], float capacity)
 {
     float tp = 0;
-    int x[20];
+    float x[20];
     int i, j, u;
     u = capacity;
 
@@ -27,7 +27,7 @@ void Cknapsack(int n, float weight[], float profit[], float capacity)
 
     printf("\n\nThe result vector of Continuous Knapsack is:- ");
     for (i = 0; i < n; i++)
-        printf("%d\t", x[i]);
+        printf("%f\t", x[i]);
 
     printf("\nMaximum profit is:- %f", tp);
 }
